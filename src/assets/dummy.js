@@ -1,0 +1,63 @@
+import {
+  cardAang,
+  bgAang,
+  cardKatara,
+  bgKatara,
+  cardSokka,
+  bgSokka,
+  cardZuko,
+  bgZuko,
+  bgLargeAang,
+  bgLargeKatara,
+  bgLargeSokka,
+  bgLargeZuko,
+} from './images';
+
+export const charactersData = [
+  {
+    img: cardAang,
+    name: 'Aang',
+    bg: bgAang,
+    nickName: 'O Mongezinho!',
+    role: 'Fight',
+    difficulty: 'LOW',
+    description:
+      'Criado por monges em um templo escondido nas montanhas, Aang é o último Dominador de Ar e o único sobrevivente conhecido dos Nômades do Ar. Ele é o mestre em colocar ele e seus amigos em situações complicadas, mas graças às suas habilidades de Avatar, ele também é muito bom em sair delas.',
+    video: '',
+    bgLarge: bgLargeAang,
+  },
+  {
+    img: cardKatara,
+    name: 'Katara',
+    bg: bgKatara,
+    nickName: 'Protetora de Aang!',
+    role: 'Mage',
+    difficulty: 'LOW',
+    description: `Katara está determinada a salvar o mundo... ou pelo menos nunca parar de tentar. Com força e maturidade além de sua idade, ela é a cola que mantém o grupo unido. Ela ainda está aprendendo a dominar suas habilidades de dobra de água, mas seu trabalho em tempo integral de manter o Avatar Aang fora de perigo pode ser toda a prática que ela precisa.`,
+    video: '',
+    bgLarge: bgLargeKatara,
+  },
+  {
+    img: cardSokka,
+    name: 'Sokka',
+    bg: bgSokka,
+    nickName: 'O Piadista!',
+    role: 'FIGHTER',
+    difficulty: 'LOW',
+    description: `Embora o irmão de Katara, Sokka, não seja um dobrador, ele tem outras habilidades que são igualmente valiosas. Armado com seu fiel bumerangue e habilidades de guerreiro, Sokka também é o piadista do grupo - mantendo o espírito da Equipe Avatar alto mesmo nas consequências mais terríveis.`,
+    video: '',
+    bgLarge: bgLargeSokka,
+  },
+  {
+    img: cardZuko,
+    name: 'Zuko',
+    bg: bgZuko,
+    nickName: 'O Exilado!',
+    role: 'MAGE',
+    difficulty: 'LOW',
+    description:
+      'Tão focado e forte quanto arrogante e impaciente, o Príncipe Zuko foi exilado da Nação do Fogo por seu próprio pai, o Senhor do Fogo. A raiva de Zuko impulsiona sua habilidade como Dobrador de Fogo e ele tem um objetivo: capturar o Avatar para que ele possa recuperar sua honra e a aprovação de seu pai. A obsessão de Zuko em capturar o Avatar será sua ruína, ou ele aprenderá a encontrar o equilíbrio dentro de si mesmo?',
+    video: '',
+    bgLarge: bgLargeZuko,
+  },
+];
